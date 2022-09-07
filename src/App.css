@@ -58,8 +58,8 @@
   margin: 0;
 }
 .short-hr {
-  width: 50px;
-  height: 10px;
+  width: 70px;
+  height: 4px;
   background-color: white;
 }
 .bg-color {
@@ -74,7 +74,9 @@ small {
 .second-col {
   padding-left: 50px;
 }
-
+.third-col{
+  padding-top: 140px;
+}
 .bg-white {
   background-color: white;
 }

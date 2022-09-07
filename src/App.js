@@ -130,17 +130,17 @@ function App() {
           <div className="col first-col">
             <div className="row lab-images">
               <div className="col">
-                <img
+                <img alt=""
                   className="img-fluid lab-image-row mx-auto d-block mb-2"
                   src="https://wallpaperaccess.com/full/909067.jpg"
                 />
-                <img
+                <img alt=""
                   className="img-fluid lab-image-row mx-auto d-block"
                   src="https://wallpaperaccess.com/full/5748767.jpg"
                 />
               </div>
               <div className="col">
-                <img
+                <img alt=""
                   className="img-fluid lab-image "
                   src="https://media.istockphoto.com/photos/woman-scientist-in-lab-look-at-science-microscope-medical-test-and-picture-id1330728771?b=1&k=20&m=1330728771&s=170667a&w=0&h=dPZrgQ7ky7d_g1ZgUCOV5jIG927hfggAOan3_CNOgNE="
                 />
@@ -173,7 +173,7 @@ function App() {
             </div>
             <div className="col bg-color second-col">
               <div className="short-hr"></div>
-              <h4>Useful Link</h4>
+              <h4 className="pt-3">Useful Link</h4>
               <p> Home</p>
               <p> Services</p>
               <p> Training Registration</p>
@@ -189,8 +189,8 @@ function App() {
               <p> Contact Us</p>
             </div>
             <div className="col  bg-color">
-              <div className="short-hr"></div>
-              <h4>Site Map</h4>
+              <div className="short-hr "></div>
+              <h4 className="pt-3">Site Map</h4>
               <p> Home</p>
               <p> Services</p>
               <p> Training Registration</p>
