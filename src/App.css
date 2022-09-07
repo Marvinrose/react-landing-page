@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #e22787;
+}
+.vertical {
+  height: 37px;
+  border-left: 5px solid var(--primary-color);
+  position: absolute;
+  left: 10%;
+}
+.vertical-header {
+  padding-left: 5px;
+  padding-top: 2px;
+}
+.hero-contents {
+  color: white;
+  position: absolute;
+  top: 180px;
+  left: 150px;
+  z-index: 1;
+}
+.header {
+  color: white;
+}
+.navbar {
+  background-color: white;
+  color: black;
+  padding: 15px;
+}
+.navbar-brand {
+  color: var(--primary-color);
+}
+.aktive {
+  text-decoration: underline;
+}
+.button {
+  padding: 10px 15px;
+  border: 2px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: white;
+}
+.button-div {
+  margin-left: 120px;
+}
+.lab-image {
+  border-radius: 15px;
+  width: 200px;
+  height: 300px;
+  padding-left: 0;
+  margin-left: 0;
+}
+.lab-image-row {
+  width: 200px;
+  border-radius: 5px;
+  padding-right: 0;
+  margin-right: 0;
+}
+.lab-images {
+  margin: 0;
+}
+.short-hr {
+  width: 50px;
+  height: 10px;
+  background-color: white;
+}
+.bg-color {
+  background-color: var(--primary-color);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+small {
+  display: block;
+}
+.second-col {
+  padding-left: 50px;
+}
+
+.bg-white {
+  background-color: white;
+}
